@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM xordiv/docker-alpine-cron:latest
 
 RUN apk --no-cache add lftp ca-certificates openssh
 VOLUME /config /downloads
